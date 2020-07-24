@@ -1,7 +1,8 @@
-import React, {Component} from "react";
+import React from "react";
+import '../assets/css/shared/style.css'
+import '../assets/css/demo_1/style.css'
 
-class Admin extends Component{
-    render() {
+const Admin = () => {
         return(
             <div>
                 {/* Required meta tags */}
@@ -871,7 +872,5 @@ class Admin extends Component{
                 {/* End custom js for this page*/}
            </div>
         )
-    }
 }
-
 export default Admin

@@ -1,10 +1,11 @@
 import React from "react";
 import Admin from "./pages/admin";
+import Category from "./pages/category";
 
 const App = () => {
 
     return  <div>
-        <Admin/>
+        <Category/>
     </div>
 }
 
